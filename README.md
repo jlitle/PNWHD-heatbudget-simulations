@@ -43,16 +43,16 @@ The example simulation script requires the following R packages:
 - TrenchR  
 
 Install them with:
-
+```
 install.packages("tidyverse")
 install.packages("TrenchR")
-
+```
 ---
 
 ## Data Availability
 
 - This repo includes minimal example input data for the heat budget simulation: `data/example_inputs.csv`  
-- We archived full datasets and analysis code supporting the paper in Dryad (currently private for peer review) : [DOI link here]  
+- We archived full datasets and analysis code supporting the paper in Dryad (currently private for peer review): [DOI link here]  
 
 ---
 
