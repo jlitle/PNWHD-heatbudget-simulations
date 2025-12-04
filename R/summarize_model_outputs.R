@@ -291,4 +291,5 @@ ggplot(newdat, aes(x = tidal_height, y = pred, color = size_class)) +
   )) +
   labs(x = NULL, y = NULL, color = NULL, fill = NULL) +
   theme_classic(base_size = 14) +
+
   theme(legend.position = "none")
