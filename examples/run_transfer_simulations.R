@@ -7,9 +7,9 @@
 # =============================================================================
 
 #Load required packages
-library(ggplot2)
-library(TrenchR)
 library(tidyverse)
+library(TrenchR)
+
 
 # Source function definitions
 source("../R/heatbudget_functions.R")
@@ -19,9 +19,9 @@ source("../R/heatbudget_functions.R")
 # and mussel sizes
 # =========================================================================
 
-#load data
-exposure_df_hourly <- read.csv("data/example_inputs.csv", header = TRUE) #June 25 low tide aerial exposure
-view(exposure_df_hourly)
+#load example input data
+exposure_df_hourly <- read.csv("../data/example_inputs.csv", header = TRUE) 
+head(exposure_df_hourly)
 
 #Example file only includes only one length, expand to many lengths if need be:
 #Step 1: Your sequence of lengths
@@ -266,3 +266,4 @@ ggplot(degree_hour_summary, aes(x = length, y = as.numeric(exposure_time) / 3600
   ) +
 
   theme_classic()
+
