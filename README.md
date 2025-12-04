@@ -1,6 +1,6 @@
 # Mussel Heat Budget Simulation for the Pacific Northwest Heat Dome
 
-This repository contains a minimal reproducible example of the heat budget simulation code used in our study on mussel heat stress during the Pacific Northwest Heatdome.  
+This repository contains a minimal reproducible example of the heat budget simulation code used in our study on mussel heat stress during the Pacific Northwest Heat Dome. 
 
 Here, we demonstrate the core simulation pipeline. Full datasets and analysis scripts are not included here; see the Data Availability section below for links to archived data and analysis scripts.
 
