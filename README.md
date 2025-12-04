@@ -1,4 +1,4 @@
-# Pacific Northwest HeatDome Mussel Heatwave Simulation
+# Mussel Heat Budget Simulation for the Pacific Northwest Heat Dome
 
 This repository contains a minimal reproducible example of the heat budget simulation code used in our study on mussel heat stress during the Pacific Northwest Heatdome.  
 
