@@ -9,7 +9,10 @@
 #Load required packages
 library(ggplot2)
 library(TrenchR)
+library(tidyverse)
 
+# Source function definitions
+source("../R/heatbudget_functions.R")
 
 # =========================================================================
 # SECTION 1: Load and/or create template data with weather conditions 
@@ -261,4 +264,5 @@ ggplot(degree_hour_summary, aes(x = length, y = as.numeric(exposure_time) / 3600
     y = "Exposure Time (hours)",
     fill = "Mean Degree Hours (°C)"
   ) +
+
   theme_classic()
